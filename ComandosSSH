@@ -4,4 +4,7 @@ ssh-add ~/.shh/id_ed25519
 ssh-add -l -E sha256
 clip < ~/.ssh/id_rsa.pub
 
+clip < ~/.ssh/id_ed25519.pub
 
+git remote -v
+git push origin master
